@@ -29,41 +29,25 @@ We extend the Dreamer framework with a **causal gate** mechanism that filters ou
 
 ### Requirements
 
-* Python 3.8+
-* PyTorch >= 1.10
-* NumPy
-* \[Any other major dependencies]
+Concrete dependencies include:
+(We tested this setting in a newly created miniconda environment in Windows 10 and ubuntu 18.04)
+-Python 3.6 (python 3.5+ should be ok but not tested)
+-Numpy 1.17
+-Pytorch 1.10.0
 
-```bash
-pip install -r requirements.txt
-```
 
-### Folder Structure
 
-```
-.
-├── agents/                  # Core RL agent and Dreamer modifications
-├── envs/                    # Partially observable task environments
-├── scripts/                 # Training and evaluation scripts
-├── utils/                   # Helper modules
-├── configs/                 # YAML configs for training runs
-└── README.md
-```
 
 ## 🧪 Running Experiments
 
-To train Causal Dreamer on BabyAI or Maze:
+Level-based Maze Task
+bash
 
-```bash
-python scripts/train.py --config configs/babyai.yaml
-```
+python Code/main.py --level 1
+or:
 
-To evaluate a trained model:
-
-```bash
-python scripts/eval.py --checkpoint path/to/model.ckpt
-```
-
+bash
+python Code/main.py --level 2
 
 ## 📊 Results
 
