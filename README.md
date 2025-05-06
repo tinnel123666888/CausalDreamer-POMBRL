@@ -42,11 +42,18 @@ Concrete dependencies include:
 
 ### 🧪 Level-Based Maze Task
 
+Run level 1:
+
 ```bash
 python Code/main.py --level 1
-or:
+```
 
+Run level 2:
+
+```bash
 python Code/main.py --level 2
+```
+
 
 
 ## 📊 Results
