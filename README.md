@@ -41,9 +41,10 @@ Concrete dependencies include:
 ## 🧪 Running Experiments
 
 Level-based Maze Task
-bash
 
+bash
 python Code/main.py --level 1
+
 or:
 
 bash
