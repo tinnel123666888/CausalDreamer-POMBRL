@@ -63,9 +63,6 @@ Below are the learning curves of **Causal Dreamer** and baseline methods across 
 <img src="curves_all_tasks.png" alt="Learning Curves for All Tasks" width="100%"/>
 
 
-## 📎 License
-
-MIT License. See `LICENSE` for details.
 
 ## 🙏 Acknowledgements
 
