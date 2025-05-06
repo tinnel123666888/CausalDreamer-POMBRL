@@ -4,7 +4,7 @@
 Official implementation of the paper:
 
 **Causal Dreamer for Partially Observable Model-Based Reinforcement Learning**  
-(*Under Review / Submitted to [Your Conference or Journal Name]*)  
+(*Under Review*)  
 
 ## 🚀 Overview
 
