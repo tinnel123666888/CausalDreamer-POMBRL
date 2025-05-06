@@ -66,13 +66,12 @@ python scripts/eval.py --checkpoint path/to/model.ckpt
 
 ## 📊 Results
 
-Causal Dreamer achieves consistent improvements over Dreamer and other MBRL baselines on tasks requiring long-term memory:
+## 📊 Results
 
-| Task            | Dreamer | Causal Dreamer |
-| --------------- | ------- | -------------- |
-| Maze            | 72.4%   | **85.7%**      |
-| BabyAI-Pickup   | 66.1%   | **81.2%**      |
-| RobotNav-4Rooms | 58.9%   | **74.6%**      |
+Below are the learning curves of **Causal Dreamer** and baseline methods across all sub-tasks:
+
+<img src="curves_all_tasks.png" alt="Learning Curves for All Tasks" width="100%"/>
+
 
 ## 📎 License
 
