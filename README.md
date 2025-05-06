@@ -64,7 +64,6 @@ To evaluate a trained model:
 python scripts/eval.py --checkpoint path/to/model.ckpt
 ```
 
-## 📊 Results
 
 ## 📊 Results
 
